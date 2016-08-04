@@ -21,7 +21,7 @@ run it
 ## Usage
 See `--help`:
 ```
-freshness.js --help
+freshness --help
 
   Usage: freshness [options]
 
