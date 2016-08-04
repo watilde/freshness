@@ -8,7 +8,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && node test/index.js",
-    "lint": "standard"
+    "lint": "standard",
+    "release": "standard-version"
   },
   "keywords": [
     "outdated"
