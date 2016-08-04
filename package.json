@@ -1,6 +1,6 @@
 {
   "name": "freshness",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check for outdated packages",
   "bin": {
     "freshness": "bin/freshness.js"
