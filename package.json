@@ -1,0 +1,25 @@
+{
+  "name": "freshness",
+  "version": "1.0.0",
+  "description": "Check for outdated packages",
+  "bin": {
+    "freshness": "bin/freshness.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && node test/index.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "outdated"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "standard-version": "^2.4.0"
+  }
+}
