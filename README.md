@@ -15,6 +15,11 @@ add a run-script to your package.json:
 }
 ```
 
+you may specify packages to ignore by passing the `--ignore` parameter like so:
+```bash
+freshness --ignore=nodeunit,async
+```
+
 run it
 > $ npm test
 
@@ -27,6 +32,7 @@ freshness --help
 
   Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
+    -h, --help               output usage information
+    -V, --version            output the version number
+    -i, --ignore <packages>  A comma separated list of packages to ignore
 ```
